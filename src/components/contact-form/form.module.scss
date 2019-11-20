@@ -1,0 +1,68 @@
+@import '../../styles/main.scss';
+
+.heading {
+  margin: .5em 0;
+  text-align: center;
+}
+
+.form {
+  background-color: $theme-light;
+  box-shadow: 2px 2px 2px $theme-darker;
+  padding: .5em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+label {
+  color: $grey;
+  display: block;
+  margin-bottom: .2em;
+}
+
+.formField {
+ display: block;
+ margin-bottom: 1em;
+ width: 100%;
+}
+
+.input {
+  background-color: $light-grey;
+  border: none;
+  box-shadow: 1px 1px 1px $theme-darker;
+  color: $dark-grey;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: .5em .8em;
+  width: 100%;
+}
+
+.textArea {
+  box-shadow: 1px 1px 1px $theme-darker;
+  color: $dark-grey;
+  font-family: inherit;
+  font-size: 1rem;
+  height: 200px;
+  padding: .5em .8em;
+  width: 100%;
+}
+
+
+.button {
+  background: $theme-primary;
+  border: 1px solid $light-grey;
+  color: inherit;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: .2em .5em;
+  width: 5em;
+  transition: all .3s;
+
+  &:hover {
+    background: $theme-lighter;
+  }
+}

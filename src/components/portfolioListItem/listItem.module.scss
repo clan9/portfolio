@@ -1,0 +1,72 @@
+@import "../../styles/main.scss";
+
+.projectLink {
+  background-color: $theme-light;
+  border: 2px solid $grey;
+  box-shadow: 2px 4px 4px $theme-darker;
+  color: inherit;
+  display: block;
+  text-decoration: none;
+}
+
+// 2 - GRID LAYOUT WITH IMG's
+.projectImage {
+  width: 100%;
+}
+
+.summary {
+  padding: 0.5em;
+
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    text-align: center;
+    text-shadow: 1px 1px 1px $theme-darker;
+  }
+
+  p {
+    padding: 0.5em;
+    text-shadow: 1px 1px 1px $theme-darker;
+  }
+}
+
+// 1 - ORIGINAL STYLES
+// .itemContainer {
+//   background-color: $green;
+//   display: flex;
+//   flex-grow: 2;
+//   padding: 0 .5em;
+//   margin-bottom: .5em;
+// }
+
+// .summary {
+//   padding: 1em;
+//   padding-bottom: 0;
+//   width: 80%;
+
+//   h3 {
+//     font-size: 1.4rem;
+//     font-weight: 400;
+//     margin-bottom: .5em;
+//     text-align: center;
+//   }
+
+//   p {
+//     font-size: .9rem;
+//     margin-bottom: .5em;
+//     padding: .5em;
+//     text-align: center;
+//   }
+// }
+
+// .imageContainer {
+//   display: flex;
+//   align-items: center;
+//   padding: .2em;
+//   padding-bottom: 0;
+
+//   img {
+//   box-shadow: 0 4px 4px rgba(0,0,0,.8);
+//   }
+// }

@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  box-sizing: border-box;
+  // define what 1rem is
+  font-size: calc(1vw + .7em);
+}
+
+body {
+  background-color: $theme-primary;
+  color: $grey;
+}
+
+/*
+  @media (min-width: 56.25em) {
+    // at 900px (56.25em) fix font size:
+    // at 900px -> 1vw + .5em = 9 + 8 = 17px:
+    // 17/16 = 1.06
+    :root {
+      font-size: 1.06em;
+    }
+  }
+*/

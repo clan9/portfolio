@@ -1,0 +1,33 @@
+@import '../../styles/main.scss';
+
+.heading {
+  font-size: 1.8rem;
+  margin: .5em 0 1em 0;
+  text-align: center;
+  text-shadow: 2px 2px 2px $theme-darker;
+}
+
+
+
+/* GRID LAYOUT
+.container {
+  display: grid;
+  grid-template-rows: repeat(2, 15em);
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+  grid-template-areas: "p1 p2"
+                       "p3 p4"; 
+  padding: .5em;
+  width: 100%;
+}
+
+
+.p1 { grid-area: p1 }
+.p2 { grid-area: p2 }
+.p3 { grid-area: p3 }
+.p4 { grid-area: p4 }
+*/
+
+
+
+

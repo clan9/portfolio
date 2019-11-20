@@ -1,0 +1,15 @@
+@import '../../styles/main.scss';
+
+.main {
+  margin: 1em 0;
+
+  img {
+    box-shadow: 4px 4px 4px $theme-darker;
+  }
+}
+
+.mainImg {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}

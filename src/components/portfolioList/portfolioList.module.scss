@@ -1,0 +1,10 @@
+.list {
+  display: grid;
+  grid-template-rows: repeat(2, minmax(30vh, min-content));
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+  grid-gap: 1.2em;
+  grid-auto-rows: minmax(30vh, min-content);
+  padding-bottom: 3em;
+  margin-left: 1.5em;
+  justify-content: center;
+}

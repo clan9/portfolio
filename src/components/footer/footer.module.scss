@@ -1,0 +1,12 @@
+@import '../../styles/main.scss';
+
+.footer {
+  color: $grey;
+  font-size: .9rem;
+  margin-top: 1em;
+  text-align: center;
+
+  span {
+    color: lighten($green, 20%);
+  }
+}

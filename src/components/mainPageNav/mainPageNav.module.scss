@@ -1,0 +1,21 @@
+@import "../../styles/main.scss";
+
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+}
+
+.navItem {
+  border: 1px solid $grey;
+  color: inherit;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 0.5em 0.8em;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: $theme-light;
+  }
+}

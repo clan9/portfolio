@@ -1,0 +1,89 @@
+@import "../../styles/main.scss";
+
+
+.details {
+  background-color: $green;
+  background-color: $theme-light;
+  box-shadow: 2px 4px 4px $theme-darker;
+  margin-top: 1em;
+  padding: 1em;
+
+  h3 {
+    font-size: 1.6rem;
+    margin: 0.5em 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px $theme-darker;
+  }
+
+  p {
+    margin-bottom: 0.5em;
+    padding: .5em 1em;
+//    text-shadow: 1px 1px 0 $theme-darker;
+  }
+}
+
+.stackInfo {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2em;
+
+  h3 {
+    border-bottom: 1px solid $grey;
+    margin: 0.5em 0;
+    padding-bottom: 0.5em;
+    text-align: center;
+    text-shadow: 1px 1px 1px $theme-darker;
+  }
+
+  p {
+    margin: 0.5em 0;
+    padding: 0 2em;
+    text-align: center;
+    text-shadow: 1px 1px 1px $theme-darker;
+  }
+
+  @media (max-width: 43.75em) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.frontend {
+  background-color: $theme-light;
+  box-shadow: 2px 4px 4px $theme-darker;
+  width: 35%;
+
+  @media (max-width: 43.75em) {
+  margin-bottom: .5em;
+   width: 60%;
+  }
+}
+
+.backend {
+  background-color: $theme-light;
+  box-shadow: 2px 4px 4px $theme-darker;
+  width: 35%;
+
+  @media (max-width: 43.75em) {
+   width: 60%;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 1em 0;
+
+  a {
+    border: 1px solid $grey;
+    color: inherit;
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: $theme-light;
+    }
+  }
+}

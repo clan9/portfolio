@@ -1,0 +1,28 @@
+@import "../../styles/main.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 1;
+}
+
+.content {
+  padding: 1em;
+}
+
+.header {
+  font-weight: 300;
+}
+
+.upper,
+.lower {
+  display: block;
+  text-align: center;
+}
+
+.name {
+  color: lighten($green, 25%);
+}

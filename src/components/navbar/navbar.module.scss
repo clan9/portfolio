@@ -1,0 +1,27 @@
+@import "../../styles/main.scss";
+
+.navbar {
+  background-color: $theme-dark;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbarItem {
+  color: inherit;
+  margin: 1em;
+  text-decoration: none;
+  transition: all 0.3s;
+
+  &:hover {
+    color: lighten($green, 10%);
+  }
+}
+
+.isActive {
+  color: lighten($green, 20%);
+}
