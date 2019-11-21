@@ -19,6 +19,6 @@ export const headspace = {
 export const ontogeny = {
   title: 'ontogeny',
   code: 'on',
-  indices: [1,2,3,4,5,6,7,8]
+  indices: [1,2,3,4,5,6,7,8,9]
 }
 
